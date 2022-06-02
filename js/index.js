@@ -31,7 +31,11 @@ for (let i = 0; i < hacker1.length; i++) {
 }
 console.log(newDriver);
 
-// 3.2 :(
+let newNavigator = "";
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  newNavigator += hacker2[i];
+}
+console.log(newNavigator);
 
 if (hacker1 > hacker2) {
   console.log("The driver's name goes first.");
